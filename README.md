@@ -10,7 +10,7 @@ This project implements a **low-cost Vehicle-to-Vehicle (V2V) communication syst
 The system provides **visual alerts (OLED display)** and **audio warnings (buzzer)** when a potential collision is detected, making driving safer in highways, fog, blind turns, and urban traffic.
 
 
-## ⚙️ Technologies Used
+## Technologies Used
 - **ESP32** microcontrollers (Transmitter & Receiver nodes)
 - **ESP-NOW protocol** for peer-to-peer wireless communication
 - **Ultrasonic Sensor (HC-SR04)** for obstacle distance measurement
@@ -86,18 +86,17 @@ The system provides **visual alerts (OLED display)** and **audio warnings (buzze
 ---
 
 ## License
-T# 🚗 Vehicle-to-Vehicle (V2V) Communication System
+T# Vehicle-to-Vehicle (V2V) Communication System
 
-## 📌 Overview
+##  how this works
 Road accidents are often caused by delayed driver reactions, poor visibility, or lack of awareness of nearby vehicles. Traditional safety systems like airbags and ABS only reduce the impact **after** a collision occurs.  
 
 This project implements a **low-cost Vehicle-to-Vehicle (V2V) communication system** using ESP32 microcontrollers, ultrasonic sensors, and GPS modules. Vehicles exchange real-time data (distance, speed, location) via the **ESP-NOW protocol** to predict and prevent collisions.  
 
 The system provides **visual alerts (OLED display)** and **audio warnings (buzzer)** when a potential collision is detected, making driving safer in highways, fog, blind turns, and urban traffic.
 
----
 
-## ⚙️ Technologies Used
+##  Technologies Used
 - **ESP32** microcontrollers (Transmitter & Receiver nodes)
 - **ESP-NOW protocol** for peer-to-peer wireless communication
 - **Ultrasonic Sensor (HC-SR04)** for obstacle distance measurement
@@ -108,7 +107,7 @@ The system provides **visual alerts (OLED display)** and **audio warnings (buzze
 
 ---
 
-## 🛠️ System Architecture
+##  System Architecture
 - **Transmitter Node**
   - Collects distance (Ultrasonic) and GPS data
   - Packages into a structured message
@@ -121,9 +120,9 @@ The system provides **visual alerts (OLED display)** and **audio warnings (buzze
     - Distance < 20 cm  
     - OR Speed > 60 km/h
 
----
 
-## 🚀 How to Run the Project
+
+## How to Run the Project
 
 ### 1. Hardware Setup
 - Connect **Ultrasonic Sensor** to ESP32:
